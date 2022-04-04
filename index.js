@@ -11,6 +11,7 @@ dbConnection();
 
 // CORS
 app.use(cors());
+
 // Public directory
 app.use(express.static('public'));
 
